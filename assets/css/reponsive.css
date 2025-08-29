@@ -1,6 +1,6 @@
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 48em) and (max-width: 64em) {
     #content .content-section {
         padding: 64px 16px;
     }
@@ -11,7 +11,7 @@
 }
 
 /* Tablet & Mobile */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .btn-tickets {
         padding: 15px 16px;
     }
@@ -34,7 +34,7 @@
 }
 
 /* Mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     /* Common */
 
     .row {
