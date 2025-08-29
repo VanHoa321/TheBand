@@ -1,0 +1,127 @@
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #content .content-section {
+        padding: 64px 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    .btn-tickets {
+        padding: 15px 16px;
+    }
+    
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .icons {
+        font-size: 20px;
+    }
+
+    #footer .icons a {
+        margin: 0 8px;
+    }
+
+    .copy-right {
+        padding: 12px 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    /* Common */
+
+    .row {
+        flex-direction: column;
+    }
+    .s-col-full {
+        flex-basis: 100% !important;
+    }
+
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 0 40px;
+    }
+
+    #content .about-text {
+        margin: 25px 20px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+
+    #content .teams {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content .team-member img {
+        width: 60%;
+        border-radius: 4px;
+    }
+
+    #content .tour-section {
+        padding: 0 15px;
+    }
+
+    .tour-booking {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .booking-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .contact-body {
+        margin-top: 24px;
+    }
+
+    .contact-info {
+        padding: 15px 20px;
+    }
+}
